@@ -47,6 +47,11 @@ export interface LineChartSkeletonProps extends ISkeletonProps {
   type?: 'linear' | 'monotone';
 }
 
+export interface DonutChartSkeletonProps extends ISkeletonProps {
+  /** Semi donut */
+  halfsize?: boolean;
+}
+
 declare const Skeleton: (<T>(props: CProps<ISkeletonProps & T, ISkeletonCtx>) => ReturnEl) & {
   Text: <T>(props: ISkeletonTextProps & T) => ReturnEl;
 };
@@ -54,10 +59,11 @@ declare const AreaChartSkeleton: <T>(props: AreaChartSkeletonProps & T) => Retur
 declare const BarChartSkeleton: <T>(props: BarChartSkeletonProps & T) => ReturnEl;
 declare const HistogramChartSkeleton: <T>(props: HistogramChartSkeletonProps & T) => ReturnEl;
 declare const LineChartSkeleton: <T>(props: LineChartSkeletonProps & T) => ReturnEl;
-declare const PieChartSkeleton: typeof Skeleton;
+declare const DonutChartSkeleton: <T>(props: DonutChartSkeletonProps & T) => ReturnEl;
 declare const VennChartSkeleton: typeof Skeleton;
 declare const BubbleChartSkeleton: typeof Skeleton;
 declare const ScatterPlotChartSkeleton: typeof Skeleton;
+declare const RadialTreeChartSkeleton: typeof Skeleton;
 
 export default Skeleton;
 export {
@@ -65,8 +71,9 @@ export {
   BarChartSkeleton,
   HistogramChartSkeleton,
   LineChartSkeleton,
-  PieChartSkeleton,
+  DonutChartSkeleton,
   VennChartSkeleton,
   BubbleChartSkeleton,
   ScatterPlotChartSkeleton,
+  RadialTreeChartSkeleton,
 };

@@ -2,6 +2,13 @@
 
 CHANGELOG.md standards are inspired by [keepachangelog.com](https://keepachangelog.com/en/1.0.0/).
 
+## [5.0.0] - unreleased
+
+### BREAK
+
+- Change all skeleton for chart from svg to div with background.  
+- Rename `PieChartSkeleton` to `DonutChartSkeleton`.  
+
 ## [4.4.33] - 2023-06-27
 
 ### Changed
