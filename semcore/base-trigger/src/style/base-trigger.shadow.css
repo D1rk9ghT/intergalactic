@@ -120,7 +120,7 @@ SBaseTrigger[size='l'] {
   min-width: 32px;
   height: 40px;
   border-radius: var(--intergalactic-control-rounded, 6px);
-  padding: 0 var(--intergalactic-spacing-2x, 8px);
+  padding: 0 var(--intergalactic-spacing-3x, 12px);
   font-size: var(--intergalactic-fs-300, 16px);
 
   & SAddon {

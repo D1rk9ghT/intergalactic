@@ -2,6 +2,12 @@
 
 CHANGELOG.md standards are inspired by [keepachangelog.com](https://keepachangelog.com/en/1.0.0/).
 
+## [5.2.0] - 2023-08-08
+
+### Fixed
+
+- Fixed paddings for addons.
+
 ## [5.1.0] - 2023-08-01
 
 ### Changed

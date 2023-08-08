@@ -333,11 +333,11 @@ SAddon[size='m'] {
 
 SAddon[size='l'] {
   &:not(:only-child):first-child {
-    margin-left: var(--intergalactic-spacing-2x, 8px);
+    margin-left: var(--intergalactic-spacing-3x, 12px);
   }
 
   &:not(:only-child):last-child {
-    margin-right: var(--intergalactic-spacing-2x, 8px);
+    margin-right: var(--intergalactic-spacing-3x, 12px);
   }
 
   &:only-child {

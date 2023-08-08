@@ -2,11 +2,11 @@
 
 CHANGELOG.md standards are inspired by [keepachangelog.com](https://keepachangelog.com/en/1.0.0/).
 
-## [4.3.0] - 2023-08-07
+## [4.3.0] - 2023-08-08
 
 ### Fixed
 
-- Fixed inner paddings for text and addons inside the `BaseTrigger`.
+- Fixed inner paddings for text inside the `BaseTrigger`.
 
 ## [4.2.0] - 2023-08-01
 
