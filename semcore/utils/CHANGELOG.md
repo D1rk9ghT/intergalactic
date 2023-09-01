@@ -2,6 +2,12 @@
 
 CHANGELOG.md standards are inspired by [keepachangelog.com](https://keepachangelog.com/en/1.0.0/).
 
+## [4.5.2] - 2023-09-01
+
+### Fixed
+
+- Moved some base tokens from the `semantic` to `base` group tokens.
+
 ## [4.5.1] - 2023-08-30
 
 ### Fixed
@@ -54,7 +60,7 @@ CHANGELOG.md standards are inspired by [keepachangelog.com](https://keepachangel
 
 ### Fixed
 
-- Fixed core invalid peer dependencies warning. 
+- Fixed core invalid peer dependencies warning.
 
 ## [4.0.0] - 2023-07-17
 
