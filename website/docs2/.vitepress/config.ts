@@ -31,7 +31,7 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © Semrush',
     },
-    logo: { src: '/miniwhale.svg', width: 24, height: 24 },
+    logo: { src: '/semrush-logo.svg', width: 30, height: 30 },
     search: {
       provider: 'algolia',
       options: {
@@ -90,7 +90,7 @@ export default defineConfig({
         target: '_blank',
       },
       {
-        text: 'Report a bug / Discuss features',
+        text: 'Requests & issues',
         link: 'https://github.com/semrush/intergalactic/issues',
         target: '_blank',
       },
